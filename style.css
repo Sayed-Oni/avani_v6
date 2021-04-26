@@ -1,1 +1,248 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid chartreuse;
+}
+.header_minibar {
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  color: white;
+}
+.header_minibar a {
+  color: white;
+}
+.header_minibar a:hover {
+  color: black;
+  text-decoration: none;
+}
+.avani_1stlogo {
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav-link {
+  margin-left: 50px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav_serch-icon {
+  margin-right: 50px;
+  font-size: 30px;
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+}
+.nav_shopping-container img {
+  margin-right: 50px;
+}
+.nav_shopping-icon {
+  position: absolute;
+  padding: 6px;
+  color: white;
+}
+.nav_shopping-icon:hover {
+  color: black;
+}
+/* Header Minibar Done */
 
+/* BANNER */
+
+.first_banner_container {
+  background-image: url(img/1st-banner-background.png);
+  background-repeat: no-repeat;
+  /* width: auto; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.first_banner_img img {
+  display: block;
+}
+.first_banner_img {
+  position: relative;
+  display: inline-block;
+}
+.first_banner_text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-40%, -30%);
+  margin-top: 20px;
+  width: 50%;
+}
+.shop-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #fa9525;
+  padding: 10px 40px 10px 40px;
+  border-radius: 5px;
+}
+.shop-btn:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* BANNER DONE */
+
+/* 4 pics */
+
+.four-pics {
+  background-image: url(img/gaja1.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  margin-top: 25px;
+  justify-content: center;
+}
+.only_middle_v1 {
+  text-align: center;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3%;
+}
+.only_middle_v1 p {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+h6 {
+  color: cyan;
+}
+/* 4 pics done */
+
+/* Second Banner */
+
+.second_container {
+  background-image: url(img/gaja2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 50px 20px 50px 20px;
+}
+.second_hemp_one {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+/* Second Banner Done */
+
+/* third banner */
+.third_banner_container {
+  background-image: url(img/1st-banner-background.png);
+  background-repeat: no-repeat;
+  /* width: auto; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.third_banner_img img {
+  display: block;
+}
+.third_banner_img {
+  position: relative;
+  display: inline-block;
+}
+.third_banner_text {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  transform: translate(-40%, -30%);
+  margin-top: 20px;
+}
+
+.spoon {
+  background-image: url(img/spoon.png);
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.orange_girl {
+  background-image: url(img/orange-girl-portrait.png);
+}
+.orange_banner_text {
+  position: absolute;
+  top: 30%;
+  left: 90%;
+  transform: translate(-40%, -30%);
+  margin-top: 20px;
+  width: 50%;
+}
+/* Only Img Card */
+
+.only_img_card_container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.only_img_card {
+  justify-content: space-evenly;
+  padding: 40px;
+  margin: 20px;
+  justify-content: center;
+}
+
+/* Only IMG Card*/
+
+/*  */
+
+.blue_girl {
+  background-image: url(img/blue-girl-portrait.png);
+}
+
+/*  */
+
+/* Hemp Banner */
+
+.hemp_backimg {
+  background-image: url(img/gaja1.png), url(img/gaja2.png),
+    url(img/Rectangle\ 14.png);
+  background-position: left top, right bottom, center;
+  background-repeat: no-repeat, no-repeat, repeat;
+}
+.four_container {
+  justify-content: space-evenly;
+  /* display: flex;
+  flex-wrap: wrap; */
+  padding: 60px;
+  justify-content: center;
+}
+.four_container_pad {
+  text-align: center;
+  margin: 20px;
+}
+.hemp_only {
+  text-align: center;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3%;
+}
+.hemp_container {
+  background-image: url(img/Rectangle\ 14.png);
+  background-position: bottom;
+  padding: 50px 20px 50px 20px;
+}
+.hemp_one {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+/* Hemp Banner Done */
+
+/* Footer */
+
+.footer_1 {
+  padding-top: 30px;
+  background-color: #8b5858;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer_pad {
+  justify-content: space-evenly;
+  /* border-top: 2px solid lightslategray; */
+  padding: 10 px;
+  width: auto;
+}
+
+/* Footer Done */
