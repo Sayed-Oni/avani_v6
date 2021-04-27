@@ -184,13 +184,64 @@ h6 {
 
 /* Only IMG Card*/
 
-/*  */
+/* tablet */
+.tablet_backimg {
+  background-image: url(img/Rectangle\ 45.png);
+}
+.tablet_container {
+  justify-content: space-between;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tablet_con_row {
+  padding: 50px;
+  text-align: center;
+}
+.tablet_row {
+  margin: 50px;
+}
+.tablet_row img {
+  padding-bottom: 20px;
+}
+.tablet_row h4 {
+  padding-bottom: 20px;
+}
+.tablet_row h5 {
+  padding-bottom: 20px;
+}
+.shop-btn_tablet {
+  text-decoration: none;
+  border: 1px solid #fa9525;
+  color: #fa9525;
+  background-color: white;
+  padding: 10px 40px 10px 40px;
+  border-radius: 5px;
+}
+.shop-btn_tablet:hover {
+  color: black;
+  text-decoration: none;
+  background-color: #fa9525;
+  color: white;
+}
+
+/* tablet done */
+
+/* blue girl */
 
 .blue_girl {
   background-image: url(img/blue-girl-portrait.png);
 }
 
-/*  */
+/* blue girl done */
+
+/* keorasol */
+
+.card {
+  justify-content: center;
+}
+
+/* keorasol done */
 
 /* Hemp Banner */
 
